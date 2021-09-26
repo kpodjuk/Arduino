@@ -1,5 +1,5 @@
 #define DECODE_NEC          // Includes Apple and Onkyo
-#define IR_RECEIVE_PIN 16 //D0
+#define IR_RECEIVE_PIN 14 //D0
 
 #include <Arduino.h>
 
