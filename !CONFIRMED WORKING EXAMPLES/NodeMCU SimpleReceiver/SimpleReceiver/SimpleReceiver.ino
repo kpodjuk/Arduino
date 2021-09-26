@@ -1,45 +1,7 @@
-/*
- * SimpleReceiver.cpp
- *
- * Demonstrates receiving NEC IR codes with IRrecv
- *
- *  Copyright (C) 2020-2021  Armin Joachimsmeyer
- *  armin.joachimsmeyer@gmail.com
- *
- *  This file is part of Arduino-IRremote https://github.com/Arduino-IRremote/Arduino-IRremote.
- *
- *  MIT License
- */
-
-/*
- * Specify which protocol(s) should be used for decoding.
- * If no protocol is defined, all protocols are active.
- */
-//#define DECODE_DENON        // Includes Sharp
-//#define DECODE_JVC
-//#define DECODE_KASEIKYO
-//#define DECODE_PANASONIC    // the same as DECODE_KASEIKYO
-//#define DECODE_LG
 #define DECODE_NEC          // Includes Apple and Onkyo
-//#define DECODE_SAMSUNG
-//#define DECODE_SONY
-//#define DECODE_RC5
-//#define DECODE_RC6
-
-//#define DECODE_BOSEWAVE
-//#define DECODE_LEGO_PF
-//#define DECODE_MAGIQUEST
-//#define DECODE_WHYNTER
-
-//#define DECODE_DISTANCE     // universal decoder for pulse width or pulse distance protocols
-//#define DECODE_HASH         // special decoder for all protocols
+#define IR_RECEIVE_PIN 16 //D0
 
 #include <Arduino.h>
-
-/*
- * Define macros for input and output pin etc.
- */
-#include "PinDefinitionsAndMore.h"
 
 #include <IRremote.h>
 

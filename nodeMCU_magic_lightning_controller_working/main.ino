@@ -1,12 +1,12 @@
 
 #include <Arduino.h>
 
-#define IR_RECEIVE_PIN 14 // D5
-
+#define IR_RECEIVE_PIN 16 // D0
 
 #include <IRremote.h>
 
-void setup() {
+void setup()
+{
     Serial.begin(115200);
     // Just to know which program is running on my Arduino
     Serial.println(F("START " __FILE__ " from " __DATE__ "\r\nUsing library version " VERSION_IRREMOTE));
@@ -20,52 +20,42 @@ void setup() {
     Serial.println(IR_RECEIVE_PIN);
 }
 
-void loop() {
-    /*
-     * Check if received data is available and if yes, try to decode it.
-     * Decoded result is in the IrReceiver.decodedIRData structure.
-     *
-     * E.g. command is in IrReceiver.decodedIRData.command
-     * address is in command is in IrReceiver.decodedIRData.address
-     * and up to 32 bit raw data in IrReceiver.decodedIRData.decodedRawData
-     */
-    if (IrReceiver.decode()) {
+void loop()
+{
+
+    if (IrReceiver.decode())
+    {
 
         // Print a short summary of received data
-        // IrReceiver.printIRResultShort(&Serial);
-        // if (IrReceiver.decodedIRData.protocol == UNKNOWN) {
-        //     // We have an unknown protocol here, print more info
-        //     IrReceiver.printIRResultRawFormatted(&Serial, true);
-        // }
-        // Serial.println();
-
-        /*
-         * !!!Important!!! Enable receiving of the next value,
-         * since receiving has stopped after the end of the current received data packet.
-         */
-
-
-        /*
-         * Finally, check the received data and perform actions according to the received command
-         */
-
-        switch(IrReceiver.decodedIRData.command){
-            case 0x5:
-                Serial.printf("1\n");
-                break;
-            case 0x4:
-                Serial.printf("2\n");
-                break;
-            case 0x6:
-                Serial.printf("3\n");
-                break;
-            case 0x7:
-                Serial.printf("4\n");
-                break;
-            
+        IrReceiver.printIRResultShort(&Serial);
+        if (IrReceiver.decodedIRData.protocol == UNKNOWN) {
+            // We have an unknown protocol here, print more info
+            IrReceiver.printIRResultRawFormatted(&Serial, true);
         }
+        Serial.println();
+
 
         IrReceiver.resume(); // Enable receiving of the next value
+
+        switch (IrReceiver.decodedIRData.command)
+        {
+        case 0x5:
+            Serial.println("Button 1 pressed!\n");
+            break;
+        case 0x4:
+            Serial.println("Button 2 pressed\n");
+            break;
+        case 0x6:
+            Serial.println("Button 3 pressed\n");
+            break;
+        case 0x7:
+            Serial.println("Button 4 pressed\n");
+            break;
+        case 0x9:
+            Serial.println("Button 5 pressed\n");
+            break;
+
+        }
         // if (IrReceiver.decodedIRData.command == 0x10) {
         //     // do something
         // } else if (IrReceiver.decodedIRData.command == 0x11) {

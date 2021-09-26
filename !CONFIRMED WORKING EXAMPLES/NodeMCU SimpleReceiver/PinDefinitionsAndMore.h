@@ -45,8 +45,8 @@
 //
 #if defined(ESP8266)
 #define FEEDBACK_LED_IS_ACTIVE_LOW // The LED on my board is active LOW
-#define IR_RECEIVE_PIN          14 // D5
-#define IR_RECEIVE_PIN_STRING   "D5"
+#define IR_RECEIVE_PIN          16 // D0
+#define IR_RECEIVE_PIN_STRING   "D0"
 #define IR_SEND_PIN             12 // D6 - D4/pin 2 is internal LED
 #define IR_SEND_PIN_STRING      "D6"
 #define tone(a,b,c) void()      // tone() inhibits receive timer
