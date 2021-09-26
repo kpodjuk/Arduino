@@ -1,0 +1,6 @@
+{
+    "sketch": "non-addresable-rainbow.ino",
+    "board": "arduino:avr:uno",
+    "programmer": "AVRISP mkII",
+    "port": "COM6"
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LED Control</title>
+    <link href='main.css' rel='stylesheet' type='text/css'>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="144x144"  href="/favicon-144x144.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon.ico">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#00878f">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'>
+</head>
+
+<body>
+    <center>
+        <header>
+            <h1>LED ON/OFF SWITCHER</h1>
+        </header>
+        <div>
+            <h3>Turn led on/off:</h3>
+            <button id="buttonState" style="margin-bottom:30px;" class="button" style="background-color:#999" onclick="ledStateChange();">OFF</button>
+        </div>
+        <div>
+            <h3>Current button state:</h3>
+
+            <button id="buttonStatus" style="margin-bottom:30px;" class="button" style="background-color:#999">OFF</button>
+        </div>
+        <div>
+            Blinking speed: <input type="number" min="50" max="5000" id="blinkTime" onchange="getAndSendBlinkTime()"/></br>
+            <button onclick="turnOffBlink()" id="buttonOffBlink" style="margin-bottom:30px;" class="button" style="background-color:#00878F">Turn off blinking</button>
+
+        </div>
+    </center>
+</body>
+
+<script>
+</script>
+<script src="WebSocket.js" type="text/javascript"></script>
+
+</html>

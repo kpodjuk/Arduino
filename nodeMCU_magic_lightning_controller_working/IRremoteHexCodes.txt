@@ -1,0 +1,38 @@
+ir remote
+4x6
+
+1x1
+Protocol=NEC Address=0x0 Command=0x5 Raw-Data=0xFA05FF00 32 bits LSB first
+Protocol=NEC Address=0x0 Command=0x4 Raw-Data=0xFB04FF00 32 bits LSB first
+Protocol=NEC Address=0x0 Command=0x6 Raw-Data=0xF906FF00 32 bits LSB first
+Protocol=NEC Address=0x0 Command=0x7 Raw-Data=0xF807FF00 32 bits LSB first
+
+2x1
+Protocol=NEC Address=0x0 Command=0x9 Raw-Data=0xF609FF00 32 bits LSB first
+Protocol=NEC Address=0x0 Command=0x8 Raw-Data=0xF708FF00 32 bits LSB first
+Protocol=NEC Address=0x0 Command=0xA Raw-Data=0xF50AFF00 32 bits LSB first
+Protocol=NEC Address=0x0 Command=0xB Raw-Data=0xF40BFF00 32 bits LSB first
+
+3x1
+Protocol=NEC Address=0x0 Command=0xD Raw-Data=0xF20DFF00 32 bits LSB first
+Protocol=NEC Address=0x0 Command=0xC Raw-Data=0xF30CFF00 32 bits LSB first
+Protocol=NEC Address=0x0 Command=0xE Raw-Data=0xF10EFF00 32 bits LSB first
+Protocol=NEC Address=0x0 Command=0xF Raw-Data=0xF00FFF00 32 bits LSB first
+
+4x1
+Protocol=NEC Address=0x0 Command=0xD Raw-Data=0xF20DFF00 32 bits LSB first
+Protocol=NEC Address=0x0 Command=0xC Raw-Data=0xF30CFF00 32 bits LSB first
+Protocol=NEC Address=0x0 Command=0xE Raw-Data=0xF10EFF00 32 bits LSB first
+Protocol=NEC Address=0x0 Command=0xF Raw-Data=0xF00FFF00 32 bits LSB first
+
+5x1
+Protocol=NEC Address=0x0 Command=0x19 Raw-Data=0xE619FF00 32 bits LSB first
+Protocol=NEC Address=0x0 Command=0x18 Raw-Data=0xE718FF00 32 bits LSB first
+Protocol=NEC Address=0x0 Command=0x1A Raw-Data=0xE51AFF00 32 bits LSB first
+Protocol=NEC Address=0x0 Command=0x1B Raw-Data=0xE41BFF00 32 bits LSB first
+
+6x1
+Protocol=NEC Address=0x0 Command=0x11 Raw-Data=0xEE11FF00 32 bits LSB first
+Protocol=NEC Address=0x0 Command=0x10 Raw-Data=0xEF10FF00 32 bits LSB first
+Protocol=NEC Address=0x0 Command=0x12 Raw-Data=0xED12FF00 32 bits LSB first
+Protocol=NEC Address=0x0 Command=0x13 Raw-Data=0xEC13FF00 32 bits LSB first

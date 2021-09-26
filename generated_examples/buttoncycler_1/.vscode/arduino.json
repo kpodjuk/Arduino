@@ -1,0 +1,5 @@
+{
+    "sketch": "buttoncycler.ino",
+    "port": "COM10",
+    "board": "arduino:avr:uno"
+}

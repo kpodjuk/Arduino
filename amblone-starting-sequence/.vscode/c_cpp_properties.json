@@ -1,0 +1,42 @@
+{
+    "configurations": [
+        {
+            "name": "ARDUINO",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "F:\\Program Files (x86)\\Arduino\\tools\\**",
+                "C:\\Users\\kamil\\Documents\\Arduino\\libraries\\**",
+                "F:\\Program Files (x86)\\Arduino\\libraries\\**",
+                "F:\\Program Files (x86)\\Arduino\\hardware\\tools\\**",
+                "F:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\**",
+                "C:\\Users\\kamil\\Documents\\Arduino\\libraries\\FastLED\\FastLED.h"
+            ],
+            "forcedInclude": [
+                "F:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\Arduino.h"
+            ],
+            "defines": [
+                "USBCON"
+            ]
+        }
+    ],
+    "version": 4
+}

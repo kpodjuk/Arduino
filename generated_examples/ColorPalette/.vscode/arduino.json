@@ -1,0 +1,5 @@
+{
+    "sketch": "ColorPalette.ino",
+    "port": "COM1",
+    "board": "arduino:avr:uno"
+}

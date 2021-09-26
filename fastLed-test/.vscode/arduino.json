@@ -1,0 +1,6 @@
+{
+    "sketch": "fastLedtest.ino",
+    "board": "arduino:avr:uno",
+    "port": "COM6",
+    "programmer": "AVRISP mkII"
+}
