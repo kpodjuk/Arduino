@@ -1,12 +1,12 @@
 
 #include <Arduino.h>
 
-#define IR_RECEIVE_PIN 14 // D5
-#define IR_SEND_PIN 16    // D0
+#define IR_RECEIVE_PIN 16 // D5
+
 
 #include <IRremote.h>
 
-IRsend irsend;
+
 
 void setup()
 {
@@ -21,8 +21,7 @@ void setup()
 
     Serial.print(F("Ready to receive IR signals at pin "));
     Serial.println(IR_RECEIVE_PIN);
-    Serial.print(F("Ready to send IR signals at pin "));
-    Serial.println(IR_SEND_PIN);
+
 }
 
 void loop()
