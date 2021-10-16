@@ -15,7 +15,6 @@
                 "C:/Users/kamil/.platformio/packages/framework-arduinoespressif8266/cores/esp8266",
                 "C:/Users/kamil/.platformio/packages/framework-arduinoespressif8266/tools/sdk/lwip2/include",
                 "C:/Users/kamil/.platformio/packages/framework-arduinoespressif8266/variants/nodemcu",
-                "C:/Users/kamil/Documents/Arduino/!platformio/first-platformio-project/.pio/libdeps/esp12e/I; RremoteESP8266/src",
                 "C:/Users/kamil/.platformio/packages/framework-arduinoespressif8266/libraries/ArduinoOTA",
                 "C:/Users/kamil/.platformio/packages/framework-arduinoespressif8266/libraries/DNSServer/src",
                 "C:/Users/kamil/.platformio/packages/framework-arduinoespressif8266/libraries/EEPROM",
@@ -45,6 +44,7 @@
                 "C:/Users/kamil/.platformio/packages/framework-arduinoespressif8266/libraries/Ticker/src",
                 "C:/Users/kamil/.platformio/packages/framework-arduinoespressif8266/libraries/Wire",
                 "C:/Users/kamil/.platformio/packages/framework-arduinoespressif8266/libraries/esp8266/src",
+                "C:/Users/kamil/.platformio/packages/tool-unity",
                 ""
             ],
             "browse": {
@@ -57,7 +57,6 @@
                     "C:/Users/kamil/.platformio/packages/framework-arduinoespressif8266/cores/esp8266",
                     "C:/Users/kamil/.platformio/packages/framework-arduinoespressif8266/tools/sdk/lwip2/include",
                     "C:/Users/kamil/.platformio/packages/framework-arduinoespressif8266/variants/nodemcu",
-                    "C:/Users/kamil/Documents/Arduino/!platformio/first-platformio-project/.pio/libdeps/esp12e/I; RremoteESP8266/src",
                     "C:/Users/kamil/.platformio/packages/framework-arduinoespressif8266/libraries/ArduinoOTA",
                     "C:/Users/kamil/.platformio/packages/framework-arduinoespressif8266/libraries/DNSServer/src",
                     "C:/Users/kamil/.platformio/packages/framework-arduinoespressif8266/libraries/EEPROM",
@@ -87,6 +86,7 @@
                     "C:/Users/kamil/.platformio/packages/framework-arduinoespressif8266/libraries/Ticker/src",
                     "C:/Users/kamil/.platformio/packages/framework-arduinoespressif8266/libraries/Wire",
                     "C:/Users/kamil/.platformio/packages/framework-arduinoespressif8266/libraries/esp8266/src",
+                    "C:/Users/kamil/.platformio/packages/tool-unity",
                     ""
                 ]
             },
